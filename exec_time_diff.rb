@@ -24,7 +24,9 @@ def largest_sub_sum(arr)
     end
   end
   sub_arrays.map { |el| el.inject(:+) }.max
+  
 end
+
 
 
 def largest_sub_sum_linear(arr)
